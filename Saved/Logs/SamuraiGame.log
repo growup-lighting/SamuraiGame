@@ -1,4 +1,4 @@
-﻿Log file open, 05/10/15 23:49:57
+﻿Log file open, 05/15/15 10:19:00
 LogInit:Display: Running engine for game: SamuraiGame
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,291 +9,559 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.05.10-14.49.57:362][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.05.10-14.49.57:458][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.05.10-14.49.57:491][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.05.10-14.49.57:508][  0]LogInit: Object subsystem initialized
-[2015.05.10-14.49.57:510][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.05.10-14.49.57:510][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/coroha/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.10-14.49.57:511][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.05.10-14.49.57:511][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/coroha/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.10-14.49.57:511][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.05.10-14.49.57:511][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/coroha/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.10-14.49.57:511][  0]LogInit: Selected Device Profile: [Windows]
-[2015.05.10-14.49.57:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.05.10-14.49.57:524][  0]LogInit: Computer: COROHA-UE
-[2015.05.10-14.49.57:524][  0]LogInit: User: coroha
-[2015.05.10-14.49.57:524][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.05.10-14.49.57:524][  0]LogInit: High frequency timer resolution =2.728055 MHz
-[2015.05.10-14.49.57:525][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=131072.0GB
-[2015.05.10-14.49.57:525][  0]LogMemory: Platform Memory Stats for Windows
-[2015.05.10-14.49.57:525][  0]LogMemory: Process Physical Memory: 46.41 MB used, 46.41 MB peak
-[2015.05.10-14.49.57:525][  0]LogMemory: Process Virtual Memory: 24.84 MB used, 24.84 MB peak
-[2015.05.10-14.49.57:525][  0]LogMemory: Physical Memory: 4283.65 MB used, 16211.00 MB total
-[2015.05.10-14.49.57:525][  0]LogMemory: Virtual Memory: 287.45 MB used, 134217728.00 MB total
-[2015.05.10-14.49.57:569][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M     (Feature Level 11_0)
-[2015.05.10-14.49.57:569][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2015.05.10-14.49.57:582][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.05.10-14.49.57:582][  0]LogD3D11RHI: Adapter has 96MB of dedicated video memory, 0MB of dedicated system memory, and 1696MB of shared system memory, 0 output[s]
-[2015.05.10-14.49.57:584][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.05.10-14.49.57:584][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.05.10-14.49.57:584][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.05.10-14.49.57:591][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.05.10-14.49.57:625][  0]LogD3D11RHI: Async texture creation enabled
-[2015.05.10-14.49.57:765][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
-[2015.05.10-14.49.57:870][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.05.15-01.19.00:373][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.15-01.19.00:445][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.15-01.19.00:476][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.15-01.19.00:496][  0]LogInit: Object subsystem initialized
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/kuou/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/kuou/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.15-01.19.00:500][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/kuou/Documents/GitHub/SamuraiGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.15-01.19.00:501][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.15-01.19.00:501][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.15-01.19.00:521][  0]LogInit: Computer: KUOU-DESKTOPPC
+[2015.05.15-01.19.00:521][  0]LogInit: User: kuou
+[2015.05.15-01.19.00:521][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.15-01.19.00:522][  0]LogInit: High frequency timer resolution =3.312832 MHz
+[2015.05.15-01.19.00:522][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.05.15-01.19.00:522][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.15-01.19.00:522][  0]LogMemory: Process Physical Memory: 48.30 MB used, 48.30 MB peak
+[2015.05.15-01.19.00:522][  0]LogMemory: Process Virtual Memory: 26.41 MB used, 26.41 MB peak
+[2015.05.15-01.19.00:522][  0]LogMemory: Physical Memory: 3017.32 MB used, 16332.02 MB total
+[2015.05.15-01.19.00:522][  0]LogMemory: Virtual Memory: 275.41 MB used, 8388608.00 MB total
+[2015.05.15-01.19.00:575][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2015.05.15-01.19.00:575][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.05.15-01.19.00:575][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.15-01.19.00:582][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.15-01.19.00:601][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.15-01.19.00:694][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2015.05.15-01.19.00:815][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
-[2015.05.10-14.49.57:870][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.05.15-01.19.00:815][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
-[2015.05.10-14.49.58:011][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.05.10-14.50.02:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.10-14.50.03:766][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.10-14.50.03:911][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.05.10-14.50.03:973][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/coroha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.10-14.50.03:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/coroha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.05.10-14.50.03:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/coroha/Documents/GitHub/SamuraiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.05.10-14.50.03:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.05.10-14.50.04:188][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.05.10-14.50.04:202][  0]LogDerivedDataCache: Using Local data cache path C:/Users/coroha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.05.10-14.50.04:800][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.05.10-14.50.04:800][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.05.10-14.50.05:645][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.05.10-14.50.05:845][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.05.10-14.50.07:537][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.05.10-14.50.07:991][  0]SourceControl: 情報 ソースコントロールは無効です
-[2015.05.10-14.50.07:991][  0]SourceControl: 情報 ソースコントロールは無効です
-[2015.05.10-14.50.07:991][  0]SourceControl: 情報 ソースコントロールは無効です
-[2015.05.10-14.50.07:991][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.10-14.50.07:991][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.10-14.50.08:015][  0]SourceControl: 情報 ソースコントロールは無効です
-[2015.05.10-14.50.08:470][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.05.10-14.50.08:470][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.05.10-14.50.08:622][  0]LogEngine: Initializing Engine...
-[2015.05.10-14.50.10:940][  0]LogInit: XAudio2 using 'スピーカー (2- VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.05.10-14.50.10:991][  0]LogInit: FAudioDevice initialized.
-[2015.05.10-14.50.11:089][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.05.10-14.50.11:118][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/coroha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.10-14.50.11:123][  0]LogInit: Texture streaming: Enabled
-[2015.05.10-14.50.11:318][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.05.10-14.50.11:318][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.10-14.50.11:318][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.10-14.50.11:318][  0]LogAnalytics: SetUserId 992cc9b84c32f397d594cba0c22b6133|cda878fe2a114b8b8a2f532f4c48c5b9|7cc6f6e9-efaf-4a97-9a89-4cec2ca61680
-[2015.05.10-14.50.11:318][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.05.10-14.50.11:369][  0]LogInit: Transaction tracking system initialized
-[2015.05.10-14.50.11:785][  0]BlueprintLog: New page: エディタの読み込み
-[2015.05.10-14.50.11:859][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
-[2015.05.10-14.50.11:860][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.05.10-14.50.13:157][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.10-14.50.14:016][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.10-14.50.14:691][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.05.10-14.50.14:692][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.05.10-14.50.14:703][  0]LogConsoleResponse:Display: 
-[2015.05.10-14.50.14:995][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.05.10-14.50.15:349][  0]SourceControl: 情報 ソースコントロールは無効です
-[2015.05.10-14.50.15:349][  0]Cmd: MAP LOAD FILE="../../../../../../Users/coroha/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.05.10-14.50.15:350][  0]LightingResults: New page: ライティングのビルド
-[2015.05.10-14.50.15:383][  0]MapCheck: New page: マップをチェック
-[2015.05.10-14.50.15:383][  0]LightingResults: New page: <何も選択されていません>
-[2015.05.10-14.50.15:394][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000073CE236980
-[2015.05.10-14.50.17:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.05.10-14.50.17:033][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.05.10-14.50.17:034][  0]Cmd: MAP CHECKDEP
-[2015.05.10-14.50.17:034][  0]MapCheck: New page: Minimal_Default - 2015/05/11 8:50:17
-[2015.05.10-14.50.17:279][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 244.567ミリ秒かかりました。
-[2015.05.10-14.50.17:279][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.931
-[2015.05.10-14.50.17:550][  0]LogCollectionManager: Loaded 0 collections in 0.003847 seconds
-[2015.05.10-14.50.17:574][  0]LogContentBrowser: Native class hierarchy populated in 0.0231 seconds. Added 1696 classes and 261 folders.
-[2015.05.10-14.50.17:647][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0079 seconds. Added 1 classes and 2 folders.
-[2015.05.10-14.50.17:796][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.05.10-14.50.17:799][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.05.10-14.50.17:810][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
-[2015.05.10-14.50.17:842][  0]LogLoad: Full Startup: 23.40 seconds (BP compile: 0.18 seconds)
-[2015.05.10-14.50.18:285][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:2).
-[2015.05.10-14.50.19:002][ 10]LogAssetRegistry: Asset discovery search completed in 7.1543 seconds
-[2015.05.10-14.50.26:009][377]Cmd: QUIT_EDITOR
-[2015.05.10-14.50.26:449][377]LogExit: Preparing to exit.
-[2015.05.10-14.50.27:695][377]LogExit: Editor shut down
-[2015.05.10-14.50.27:696][377]LogExit: Transaction tracking system shut down
-[2015.05.10-14.50.27:698][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000073C539F4C0
-[2015.05.10-14.50.27:698][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000073D3265800
-[2015.05.10-14.50.27:770][377]LogExit: Object subsystem successfully closed.
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.05.10-14.50.27:901][377]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.05.10-14.50.27:902][377]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.05.10-14.50.28:214][377]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.05.10-14.50.28:214][377]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.05.10-14.50.28:214][377]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.05.10-14.50.28:215][377]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.05.10-14.50.28:216][377]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.05.10-14.50.28:217][377]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.05.10-14.50.28:307][377]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.05.10-14.50.28:307][377]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.05.10-14.50.28:307][377]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.05.10-14.50.28:309][377]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.05.10-14.50.28:310][377]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.05.10-14.50.28:310][377]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.05.10-14.50.28:555][377]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.05.10-14.50.28:556][377]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.05.10-14.50.28:557][377]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.05.10-14.50.28:559][377]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.05.10-14.50.28:559][377]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.05.10-14.50.28:559][377]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.05.10-14.50.28:660][377]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.05.10-14.50.28:660][377]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.05.10-14.50.28:668][377]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.05.10-14.50.28:668][377]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.05.10-14.50.28:668][377]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.05.10-14.50.28:668][377]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.05.10-14.50.28:669][377]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.05.10-14.50.28:694][377]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.05.10-14.50.28:714][377]LogDerivedDataCache: Shutdown
-[2015.05.10-14.50.28:714][377]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.05.10-14.50.28:714][377]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.05.10-14.50.28:714][377]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.05.10-14.50.28:715][377]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.05.10-14.50.28:716][377]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.05.10-14.50.28:717][377]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.05.10-14.50.28:717][377]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.05.10-14.50.28:717][377]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.05.10-14.50.28:720][377]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.05.10-14.50.28:721][377]LogExit: Exiting.
-[2015.05.10-14.50.28:738][377]Log file closed, 05/10/15 23:50:28
+[2015.05.15-01.19.00:977][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.15-01.19.04:705][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.15-01.19.06:086][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.15-01.19.06:193][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.15-01.19.06:249][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/kuou/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.15-01.19.06:249][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kuou/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.15-01.19.06:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.15-01.19.06:249][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.15-01.19.06:464][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.15-01.19.06:477][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kuou/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.15-01.19.06:957][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.15-01.19.06:957][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.15-01.19.07:551][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.15-01.19.07:707][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.15-01.19.09:425][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.15-01.19.09:774][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.05.15-01.19.09:775][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.05.15-01.19.09:775][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.05.15-01.19.09:775][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.15-01.19.09:775][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.15-01.19.09:793][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.05.15-01.19.10:164][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.15-01.19.10:164][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.15-01.19.10:319][  0]LogEngine: Initializing Engine...
+[2015.05.15-01.19.13:634][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.15-01.19.13:678][  0]LogInit: FAudioDevice initialized.
+[2015.05.15-01.19.13:756][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.15-01.19.13:790][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/kuou/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.15-01.19.13:796][  0]LogInit: Texture streaming: Enabled
+[2015.05.15-01.19.13:987][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.15-01.19.13:987][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.15-01.19.13:987][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.15-01.19.13:988][  0]LogAnalytics: SetUserId 555eefa54cafb92ea7291c8c22567294|cda878fe2a114b8b8a2f532f4c48c5b9|82d31a09-2228-4ce9-9396-5d238f23a2b0
+[2015.05.15-01.19.13:988][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.15-01.19.14:029][  0]LogInit: Transaction tracking system initialized
+[2015.05.15-01.19.14:332][  0]BlueprintLog: New page: エディタの読み込み
+[2015.05.15-01.19.14:383][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.05.15-01.19.14:383][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.15-01.19.15:612][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.15-01.19.16:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.15-01.19.16:807][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.15-01.19.16:808][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.15-01.19.16:820][  0]LogConsoleResponse:Display: 
+[2015.05.15-01.19.17:123][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.15-01.19.17:408][  0]SourceControl: 情報 ソースコントロールは無効です
+[2015.05.15-01.19.17:408][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.19.17:409][  0]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.19.17:434][  0]MapCheck: New page: マップをチェック
+[2015.05.15-01.19.17:434][  0]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.19.17:449][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013DAA980
+[2015.05.15-01.19.19:097][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.19.19:118][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.15-01.19.19:120][  0]Cmd: MAP CHECKDEP
+[2015.05.15-01.19.19:120][  0]MapCheck: New page: Minimal_Default - 2015/05/15 19:19:19
+[2015.05.15-01.19.19:294][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 174.44ミリ秒かかりました。
+[2015.05.15-01.19.19:294][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.886
+[2015.05.15-01.19.19:503][  0]LogCollectionManager: Loaded 0 collections in 0.003135 seconds
+[2015.05.15-01.19.19:521][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 1696 classes and 261 folders.
+[2015.05.15-01.19.19:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2015.05.15-01.19.19:688][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.15-01.19.19:691][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.15-01.19.19:702][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2015.05.15-01.19.19:731][  0]LogLoad: Full Startup: 22.09 seconds (BP compile: 0.18 seconds)
+[2015.05.15-01.19.19:773][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent'
+[2015.05.15-01.19.20:080][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.15-01.19.21:013][  9]LogAssetRegistry: Asset discovery search completed in 6.6396 seconds
+[2015.05.15-01.19.33:267][965]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent'
+[2015.05.15-01.19.42:632][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent'
+[2015.05.15-01.19.49:039][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent'
+[2015.05.15-01.20.07:330][  4]LogSavePackage: Save=17.335922ms
+[2015.05.15-01.20.07:330][  4]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/GameA7DA63B243B3F8DC384C4E8D20933803.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Game.umap'
+[2015.05.15-01.20.07:339][  4]LogFileHelpers: Saving map 'Game' took 0.237
+[2015.05.15-01.20.07:600][  4]LogSavePackage: Save=17.128548ms
+[2015.05.15-01.20.07:600][  4]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Result7E0783BF4B99D5C20F637F8C01AA42B8.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Result.umap'
+[2015.05.15-01.20.07:608][  4]LogFileHelpers: Saving map 'Result' took 0.268
+[2015.05.15-01.20.07:830][  4]LogSavePackage: Save=16.983656ms
+[2015.05.15-01.20.07:830][  4]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Title218FBB434A81CC07522636A3AE593A35.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Title.umap'
+[2015.05.15-01.20.07:838][  4]LogFileHelpers: Saving map 'Title' took 0.230
+[2015.05.15-01.20.07:866][  4]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/MobileStarterContent/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.20.07:867][  4]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.20.07:924][  4]LoadErrors: New page: マップをロード中: Title.umap
+[2015.05.15-01.20.07:925][  4]MapCheck: New page: マップをチェック
+[2015.05.15-01.20.07:925][  4]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.20.07:939][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EB11DA0
+[2015.05.15-01.20.07:946][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.20.07:947][  4]LogAIModule: Creating AISystem for world Title
+[2015.05.15-01.20.07:999][  4]Cmd: MAP CHECKDEP
+[2015.05.15-01.20.07:999][  4]MapCheck: New page: Title - 2015/05/15 19:20:07
+[2015.05.15-01.20.08:181][  4]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 181.12ミリ秒かかりました。
+[2015.05.15-01.20.08:182][  4]LogFileHelpers: Loading map 'Title' took 0.319
+[2015.05.15-01.20.37:349][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F35CA40
+[2015.05.15-01.20.40:265][242]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F35E660
+[2015.05.15-01.21.01:077][529]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.21.01:078][529]MapCheck: New page: マップをチェック
+[2015.05.15-01.21.01:078][529]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.21.01:100][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DACA200
+[2015.05.15-01.21.01:102][529]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.15-01.21.01:121][529]LoadErrors: New page: 新規のマップ
+[2015.05.15-01.21.17:706][479]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.21.17:749][479]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.21.17:822][479]LoadErrors: New page: マップをロード中: Template_Default.umap
+[2015.05.15-01.21.17:822][479]MapCheck: New page: マップをチェック
+[2015.05.15-01.21.17:822][479]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.21.17:839][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F35E480
+[2015.05.15-01.21.17:907][479]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.21.17:916][479]LogAIModule: Creating AISystem for world Untitled_2
+[2015.05.15-01.21.17:927][479]Cmd: MAP CHECKDEP
+[2015.05.15-01.21.17:927][479]MapCheck: New page: Untitled_2 - 2015/05/15 19:21:17
+[2015.05.15-01.21.18:105][479]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 177.255ミリ秒かかりました。
+[2015.05.15-01.21.18:105][479]LogFileHelpers: Loading map 'Template_Default' took 0.403
+[2015.05.15-01.21.23:800][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.21.23:869][669]LogSavePackage: Save=45.837215ms
+[2015.05.15-01.21.23:869][669]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Title6B56FE3F4315B79FDB44AFA12DCF17D2.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap'
+[2015.05.15-01.21.23:932][669]LogFileHelpers: Saving map 'Title' took 0.656
+[2015.05.15-01.21.29:825][ 85]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.21.29:895][ 85]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.21.29:991][ 85]LoadErrors: New page: マップをロード中: Template_Default.umap
+[2015.05.15-01.21.29:992][ 85]MapCheck: New page: マップをチェック
+[2015.05.15-01.21.29:992][ 85]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.21.30:005][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF8F060
+[2015.05.15-01.21.30:131][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.21.30:140][ 85]LogAIModule: Creating AISystem for world Untitled_3
+[2015.05.15-01.21.30:152][ 85]Cmd: MAP CHECKDEP
+[2015.05.15-01.21.30:152][ 85]MapCheck: New page: Untitled_3 - 2015/05/15 19:21:30
+[2015.05.15-01.21.30:332][ 85]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 179.975ミリ秒かかりました。
+[2015.05.15-01.21.30:332][ 85]LogFileHelpers: Loading map 'Template_Default' took 0.511
+[2015.05.15-01.21.34:933][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.21.35:001][307]LogSavePackage: Save=46.619930ms
+[2015.05.15-01.21.35:001][307]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/GameA579450E4BDF377968D8ADBE642B8F68.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap'
+[2015.05.15-01.21.35:060][307]LogFileHelpers: Saving map 'Game' took 0.409
+[2015.05.15-01.21.38:657][552]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.21.38:697][552]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.21.38:807][552]LoadErrors: New page: マップをロード中: Template_Default.umap
+[2015.05.15-01.21.38:808][552]MapCheck: New page: マップをチェック
+[2015.05.15-01.21.38:808][552]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.21.38:824][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011163C40
+[2015.05.15-01.21.38:944][552]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.21.38:953][552]LogAIModule: Creating AISystem for world Untitled_4
+[2015.05.15-01.21.38:964][552]Cmd: MAP CHECKDEP
+[2015.05.15-01.21.38:964][552]MapCheck: New page: Untitled_4 - 2015/05/15 19:21:38
+[2015.05.15-01.21.39:142][552]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 177.211ミリ秒かかりました。
+[2015.05.15-01.21.39:142][552]LogFileHelpers: Loading map 'Template_Default' took 0.489
+[2015.05.15-01.21.39:929][640]Cmd: POLY SELECT MEMORY RECALL
+[2015.05.15-01.21.46:080][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Result" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.21.46:149][887]LogSavePackage: Save=46.831230ms
+[2015.05.15-01.21.46:149][887]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/ResultE116E2DC454ED1F77383F2866195D4A6.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap'
+[2015.05.15-01.21.46:212][887]LogFileHelpers: Saving map 'Result' took 0.417
+[2015.05.15-01.22.36:256][707]BlueprintLog: New page: Result をコンパイル
+[2015.05.15-01.22.36:367][707]BlueprintEditorCompileResults: 情報 [0218.73] Result のコンパイルに成功しました！  [ 110 ミリ秒]
+[2015.05.15-01.22.40:306][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.15-01.22.44:975][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D837100
+[2015.05.15-01.22.47:641][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Result" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.22.47:853][566]LogSavePackage: Save=152.865891ms
+[2015.05.15-01.22.47:853][566]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/ResultFFB93B1F451BE330D7077DA4C36E3DB6.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap'
+[2015.05.15-01.22.47:946][566]LogFileHelpers: Saving map 'Result' took 0.494
+[2015.05.15-01.22.47:950][566]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.22.47:950][566]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.22.48:019][566]LoadErrors: New page: マップをロード中: Title.umap
+[2015.05.15-01.22.48:020][566]MapCheck: New page: マップをチェック
+[2015.05.15-01.22.48:020][566]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.22.48:044][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D1A28E0
+[2015.05.15-01.22.48:053][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.22.48:059][566]LogAIModule: Creating AISystem for world Title
+[2015.05.15-01.22.48:110][566]Cmd: MAP CHECKDEP
+[2015.05.15-01.22.48:110][566]MapCheck: New page: Title - 2015/05/15 19:22:48
+[2015.05.15-01.22.48:296][566]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 185.634ミリ秒かかりました。
+[2015.05.15-01.22.48:297][566]LogFileHelpers: Loading map 'Title' took 0.351
+[2015.05.15-01.23.22:985][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.23.23:181][431]LogSavePackage: Save=153.379349ms
+[2015.05.15-01.23.23:181][431]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/TitleB16EDB0543AD5CF87DD35A95EA4B354C.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap'
+[2015.05.15-01.23.23:241][431]LogFileHelpers: Saving map 'Title' took 0.444
+[2015.05.15-01.23.27:987][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002444FC40
+[2015.05.15-01.23.27:996][920]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.23.27:996][920]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.23.28:050][920]LoadErrors: New page: マップをロード中: Game.umap
+[2015.05.15-01.23.28:050][920]MapCheck: New page: マップをチェック
+[2015.05.15-01.23.28:050][920]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.23.28:076][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016041800
+[2015.05.15-01.23.28:084][920]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.23.28:090][920]LogAIModule: Creating AISystem for world Game
+[2015.05.15-01.23.28:141][920]Cmd: MAP CHECKDEP
+[2015.05.15-01.23.28:142][920]MapCheck: New page: Game - 2015/05/15 19:23:28
+[2015.05.15-01.23.28:327][920]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 185.531ミリ秒かかりました。
+[2015.05.15-01.23.28:330][920]LogFileHelpers: Loading map 'Game' took 0.338
+[2015.05.15-01.24.14:018][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.24.14:219][817]LogSavePackage: Save=157.168854ms
+[2015.05.15-01.24.14:219][817]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Game07D49AE54568955FDCFDC8BB234442C1.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap'
+[2015.05.15-01.24.14:281][817]LogFileHelpers: Saving map 'Game' took 0.452
+[2015.05.15-01.24.46:572][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.15-01.25.14:722][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.05.15-01.25.14:748][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001613FA60
+[2015.05.15-01.25.15:018][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.25.15:204][257]LogSavePackage: Save=145.508743ms
+[2015.05.15-01.25.15:204][257]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/GameFEA1D5784007392092C12594B08345C8.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap'
+[2015.05.15-01.25.15:268][257]LogFileHelpers: Saving map 'Game' took 0.439
+[2015.05.15-01.25.17:600][402]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.25.17:600][402]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.25.17:655][402]LoadErrors: New page: マップをロード中: Result.umap
+[2015.05.15-01.25.17:657][402]MapCheck: New page: マップをチェック
+[2015.05.15-01.25.17:657][402]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.25.17:681][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF8C180
+[2015.05.15-01.25.17:690][402]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.25.17:696][402]LogAIModule: Creating AISystem for world Result
+[2015.05.15-01.25.17:748][402]Cmd: MAP CHECKDEP
+[2015.05.15-01.25.17:748][402]MapCheck: New page: Result - 2015/05/15 19:25:17
+[2015.05.15-01.25.17:933][402]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 185.141ミリ秒かかりました。
+[2015.05.15-01.25.17:935][402]LogFileHelpers: Loading map 'Result' took 0.350
+[2015.05.15-01.25.39:596][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.05.15-01.25.39:887][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Result" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.25.40:076][314]LogSavePackage: Save=149.375519ms
+[2015.05.15-01.25.40:076][314]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Result278582A84F8389745727D59ED8372C6E.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap'
+[2015.05.15-01.25.40:137][314]LogFileHelpers: Saving map 'Result' took 0.438
+[2015.05.15-01.25.41:206][366]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.25.41:207][366]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.25.41:262][366]LoadErrors: New page: マップをロード中: Title.umap
+[2015.05.15-01.25.41:263][366]MapCheck: New page: マップをチェック
+[2015.05.15-01.25.41:263][366]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.25.41:288][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FEB14E0
+[2015.05.15-01.25.41:297][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.25.41:303][366]LogAIModule: Creating AISystem for world Title
+[2015.05.15-01.25.41:355][366]Cmd: MAP CHECKDEP
+[2015.05.15-01.25.41:355][366]MapCheck: New page: Title - 2015/05/15 19:25:41
+[2015.05.15-01.25.41:542][366]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 186.725ミリ秒かかりました。
+[2015.05.15-01.25.41:544][366]LogFileHelpers: Loading map 'Title' took 0.351
+[2015.05.15-01.25.57:642][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.05.15-01.25.57:935][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.25.58:129][713]LogSavePackage: Save=156.050476ms
+[2015.05.15-01.25.58:129][713]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Title6E86A90241DBF9131F9AB391CB10842F.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap'
+[2015.05.15-01.25.58:190][713]LogFileHelpers: Saving map 'Title' took 0.443
+[2015.05.15-01.26.39:033][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.26.39:232][523]LogSavePackage: Save=161.015717ms
+[2015.05.15-01.26.39:232][523]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/TitleB79C8272493816330D8163B543DF5EBA.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Title.umap'
+[2015.05.15-01.26.39:292][523]LogFileHelpers: Saving map 'Title' took 0.447
+[2015.05.15-01.26.40:675][600]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.26.40:676][600]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.26.40:730][600]LoadErrors: New page: マップをロード中: Result.umap
+[2015.05.15-01.26.40:732][600]MapCheck: New page: マップをチェック
+[2015.05.15-01.26.40:732][600]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.26.40:757][600]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FEB28E0
+[2015.05.15-01.26.40:766][600]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.26.40:772][600]LogAIModule: Creating AISystem for world Result
+[2015.05.15-01.26.40:824][600]Cmd: MAP CHECKDEP
+[2015.05.15-01.26.40:824][600]MapCheck: New page: Result - 2015/05/15 19:26:40
+[2015.05.15-01.26.41:001][600]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 176.789ミリ秒かかりました。
+[2015.05.15-01.26.41:002][600]LogFileHelpers: Loading map 'Result' took 0.340
+[2015.05.15-01.27.06:900][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Result" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.27.07:089][760]LogSavePackage: Save=150.306747ms
+[2015.05.15-01.27.07:089][760]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Result495F38BB42C5FE72E9510EB0DBB8E457.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Result.umap'
+[2015.05.15-01.27.07:151][760]LogFileHelpers: Saving map 'Result' took 0.438
+[2015.05.15-01.27.08:483][841]Cmd: MAP LOAD FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.15-01.27.08:484][841]LightingResults: New page: ライティングのビルド
+[2015.05.15-01.27.08:539][841]LoadErrors: New page: マップをロード中: Game.umap
+[2015.05.15-01.27.08:541][841]MapCheck: New page: マップをチェック
+[2015.05.15-01.27.08:541][841]LightingResults: New page: <何も選択されていません>
+[2015.05.15-01.27.08:566][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015FBAAC0
+[2015.05.15-01.27.08:575][841]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.15-01.27.08:580][841]LogAIModule: Creating AISystem for world Game
+[2015.05.15-01.27.08:632][841]Cmd: MAP CHECKDEP
+[2015.05.15-01.27.08:632][841]MapCheck: New page: Game - 2015/05/15 19:27:08
+[2015.05.15-01.27.08:817][841]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 185.206ミリ秒かかりました。
+[2015.05.15-01.27.08:819][841]LogFileHelpers: Loading map 'Game' took 0.340
+[2015.05.15-01.27.27:667][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Game" FILE="../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.15-01.27.27:846][532]LogSavePackage: Save=141.202759ms
+[2015.05.15-01.27.27:846][532]LogSavePackage: Moving '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Saved/Game9CB183B14596C2A12B087F9C7A1AEC63.tmp' to '../../../../../../Users/kuou/Documents/GitHub/SamuraiGame/Content/Maps/Game.umap'
+[2015.05.15-01.27.27:906][532]LogFileHelpers: Saving map 'Game' took 0.427
+[2015.05.15-01.27.48:740][583]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2015.05.15-01.27.48:740][583]LogPlayLevel: [PIE] Compiling Game before PIE...
+[2015.05.15-01.27.48:846][583]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.05.15-01.27.48:846][583]PIE: New page: PIEセッション: Game (2015/05/15 19:27:48)
+[2015.05.15-01.27.48:854][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006917s)
+[2015.05.15-01.27.48:854][583]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2015.05.15-01.27.48:855][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.008022s)
+[2015.05.15-01.27.48:937][583]LogWorld: Game class is 'GameMode'
+[2015.05.15-01.27.48:942][583]LogAIModule: Creating AISystem for world Game
+[2015.05.15-01.27.48:948][583]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2015.05.15-10.27.48
+[2015.05.15-01.27.48:949][583]LogWorld: Bringing up level for play took: 0.006751
+[2015.05.15-01.27.48:973][583]PIE: 情報 /Game/Maps/UEDPIE_0_Game -0.626のPIE開始時間
+[2015.05.15-01.28.02:140][128]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Result.umap
+[2015.05.15-01.28.02:280][129]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Result.umap
+[2015.05.15-01.28.02:280][129]LogNet: Browse: /Game/Maps/Result
+[2015.05.15-01.28.02:280][129]LogLoad: LoadMap: /Game/Maps/Result
+[2015.05.15-01.28.02:316][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FE81760
+[2015.05.15-01.28.02:316][129]Cmd: MEM
+[2015.05.15-01.28.02:345][129]LogMemory: Platform Memory Stats for Windows
+[2015.05.15-01.28.02:345][129]LogMemory: Process Physical Memory: 599.22 MB used, 604.55 MB peak
+[2015.05.15-01.28.02:345][129]LogMemory: Process Virtual Memory: 497.16 MB used, 504.48 MB peak
+[2015.05.15-01.28.02:345][129]LogMemory: Physical Memory: 3268.77 MB used, 16332.02 MB total
+[2015.05.15-01.28.02:345][129]LogMemory: Virtual Memory: 1021.12 MB used, 8388608.00 MB total
+[2015.05.15-01.28.02:345][129]LogMemory: 
+[2015.05.15-01.28.02:345][129]Allocator Stats for TBB: (not implemented)
+[2015.05.15-01.28.02:443][129]LogWorld: Game class is 'GameMode'
+[2015.05.15-01.28.02:446][129]LogAIModule: Creating AISystem for world Result
+[2015.05.15-01.28.02:453][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Result.Result up for play (max tick rate 0) at 2015.05.15-10.28.02
+[2015.05.15-01.28.02:455][129]LogWorld: Bringing up level for play took: 0.007204
+[2015.05.15-01.28.08:696][854]LogPackageName: SearchForPackageOnDisk took   0.110s to resolve Title.umap
+[2015.05.15-01.28.08:815][855]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve Title.umap
+[2015.05.15-01.28.08:815][855]LogNet: Browse: /Game/Maps/Title
+[2015.05.15-01.28.08:815][855]LogLoad: LoadMap: /Game/Maps/Title
+[2015.05.15-01.28.08:847][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF8DD00
+[2015.05.15-01.28.08:847][855]Cmd: MEM
+[2015.05.15-01.28.08:872][855]LogMemory: Platform Memory Stats for Windows
+[2015.05.15-01.28.08:872][855]LogMemory: Process Physical Memory: 603.52 MB used, 640.00 MB peak
+[2015.05.15-01.28.08:872][855]LogMemory: Process Virtual Memory: 501.90 MB used, 540.07 MB peak
+[2015.05.15-01.28.08:872][855]LogMemory: Physical Memory: 3273.73 MB used, 16332.02 MB total
+[2015.05.15-01.28.08:872][855]LogMemory: Virtual Memory: 1029.99 MB used, 8388608.00 MB total
+[2015.05.15-01.28.08:872][855]LogMemory: 
+[2015.05.15-01.28.08:872][855]Allocator Stats for TBB: (not implemented)
+[2015.05.15-01.28.09:033][855]LogWorld: Game class is 'GameMode'
+[2015.05.15-01.28.09:036][855]LogAIModule: Creating AISystem for world Title
+[2015.05.15-01.28.09:042][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2015.05.15-10.28.09
+[2015.05.15-01.28.09:043][855]LogWorld: Bringing up level for play took: 0.006141
+[2015.05.15-01.28.14:241][454]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Game.umap
+[2015.05.15-01.28.14:381][455]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Game.umap
+[2015.05.15-01.28.14:381][455]LogNet: Browse: /Game/Maps/Game
+[2015.05.15-01.28.14:381][455]LogLoad: LoadMap: /Game/Maps/Game
+[2015.05.15-01.28.14:413][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015FBA200
+[2015.05.15-01.28.14:418][455]Cmd: MEM
+[2015.05.15-01.28.14:446][455]LogMemory: Platform Memory Stats for Windows
+[2015.05.15-01.28.14:446][455]LogMemory: Process Physical Memory: 603.63 MB used, 640.00 MB peak
+[2015.05.15-01.28.14:446][455]LogMemory: Process Virtual Memory: 501.68 MB used, 540.07 MB peak
+[2015.05.15-01.28.14:446][455]LogMemory: Physical Memory: 3275.05 MB used, 16332.02 MB total
+[2015.05.15-01.28.14:446][455]LogMemory: Virtual Memory: 1029.99 MB used, 8388608.00 MB total
+[2015.05.15-01.28.14:446][455]LogMemory: 
+[2015.05.15-01.28.14:446][455]Allocator Stats for TBB: (not implemented)
+[2015.05.15-01.28.14:454][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007329s)
+[2015.05.15-01.28.14:455][455]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2015.05.15-01.28.14:455][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Game.Game to /Game/Maps/UEDPIE_0_Game.Game (0.008394s)
+[2015.05.15-01.28.14:456][455]LogWorld: Game class is 'GameMode'
+[2015.05.15-01.28.14:461][455]LogAIModule: Creating AISystem for world Game
+[2015.05.15-01.28.14:467][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2015.05.15-10.28.14
+[2015.05.15-01.28.14:468][455]LogWorld: Bringing up level for play took: 0.006724
+[2015.05.15-01.28.24:009][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244B2520
+[2015.05.15-01.28.27:907][807]Cmd: QUIT_EDITOR
+[2015.05.15-01.28.28:383][807]LogExit: Preparing to exit.
+[2015.05.15-01.28.29:584][807]LogExit: Editor shut down
+[2015.05.15-01.28.29:585][807]LogExit: Transaction tracking system shut down
+[2015.05.15-01.28.29:585][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244B0900
+[2015.05.15-01.28.29:586][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF011C0
+[2015.05.15-01.28.29:587][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001613CCC0
+[2015.05.15-01.28.29:588][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001613C720
+[2015.05.15-01.28.29:589][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EB13BA0
+[2015.05.15-01.28.29:701][807]LogExit: Object subsystem successfully closed.
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (179)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module NewLevelDialog (178)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.15-01.28.29:789][807]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.15-01.28.29:790][807]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.15-01.28.29:791][807]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.15-01.28.30:600][807]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.15-01.28.30:601][807]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.15-01.28.30:668][807]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.15-01.28.30:668][807]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.15-01.28.30:668][807]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.15-01.28.30:670][807]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.15-01.28.30:671][807]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.15-01.28.30:775][807]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.15-01.28.30:776][807]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.15-01.28.30:777][807]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.15-01.28.30:777][807]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.15-01.28.30:777][807]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.15-01.28.30:877][807]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.15-01.28.30:877][807]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.15-01.28.30:880][807]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.15-01.28.30:880][807]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.15-01.28.30:881][807]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.15-01.28.30:889][807]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.15-01.28.30:927][807]LogDerivedDataCache: Shutdown
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.15-01.28.30:927][807]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.15-01.28.30:928][807]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.15-01.28.30:931][807]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.15-01.28.30:932][807]LogExit: Exiting.
+[2015.05.15-01.28.30:964][807]Log file closed, 05/15/15 10:28:30
